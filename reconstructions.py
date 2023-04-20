@@ -95,7 +95,7 @@ def RFD1(image, m, reconPlots=False,densPlots=False,slicePlots=False,phiError=Fa
         plt.figure()
         plt.pcolor(xv, yv, (reconstruction))
         plt.colorbar()
-        plt.title("2D Reconstruction for Mantle Blob Test Model with %i detectors" %m)
+        plt.title("2D Reconstruction with %i detectors" %m)
         plt.xlabel("km")
         plt.ylabel("km")
     return reconstruction
