@@ -157,7 +157,7 @@ def RFD2(image, n, reconPlots=False,densPlots=False,slicePlots=False): #image = 
         plt.figure()
         plt.pcolor(xv, yv, (reconstruction))
         plt.colorbar()
-        plt.title("2D Reconstruction for High Ellipticity Test Model with %i detectors" %m1)
+        plt.title("2D Reconstruction with %i detectors" %m1)
         plt.xlabel("km")
         plt.ylabel("km")
     return reconstruction
